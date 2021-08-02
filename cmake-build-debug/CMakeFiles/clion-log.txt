@@ -1,4 +1,4 @@
-/snap/clion/158/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/andrija/Desktop/projekat_Basket
+/snap/clion/162/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/andrija/Desktop/projekat_Basket
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Detecting C compiler ABI info
@@ -11,7 +11,6 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/andrija/Desktop/projekat_Basket/cmake-build-debug
