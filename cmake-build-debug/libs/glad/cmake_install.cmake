@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrija/Desktop/projekat_Basket/libs/glad
+# Install script for directory: /home/andrija/Desktop/RG/project_basket/libs/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

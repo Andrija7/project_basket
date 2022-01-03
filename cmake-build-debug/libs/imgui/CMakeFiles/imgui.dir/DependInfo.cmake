@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_demo.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_draw.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_impl_glfw.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_impl_opengl3.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_tables.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o"
-  "/home/andrija/Desktop/projekat_Basket/libs/imgui/src/imgui_widgets.cpp" "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_demo.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_draw.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_impl_glfw.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_impl_opengl3.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_tables.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o"
+  "/home/andrija/Desktop/RG/project_basket/libs/imgui/src/imgui_widgets.cpp" "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,7 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/andrija/Desktop/projekat_Basket/cmake-build-debug/libs/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/home/andrija/Desktop/RG/project_basket/cmake-build-debug/libs/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
