@@ -27,7 +27,8 @@ Camera camera(glm::vec3(0.0f, 1.5f, 10.0f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
-
+bool blinn = false;
+bool blinnKeyPressed = false;
 // timing
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
@@ -452,7 +453,7 @@ int main()
         modelShader.setFloat("pointLight.quadratic", pointLight.quadratic);
         modelShader.setVec3("viewPosition", camera.Position);
         modelShader.setFloat("material.shininess", 64.0f);
-
+        modelShader.setInt("blinn", blinn);
 
 
 
@@ -578,12 +579,13 @@ int main()
         glDrawArrays(GL_TRIANGLES, 0, 36);
         glBindVertexArray(0);
         glDepthFunc(GL_LESS); // set depth function back to default
-
+        std::cout << (blinn ? "Blinn-Phong" : "Phong") << std::endl;
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+
     glDeleteVertexArrays(1, &skyboxVAO);
     glDeleteBuffers(1, &skyboxVAO);
     // glfw: terminate, clearing all previously allocated GLFW resources.
@@ -607,6 +609,15 @@ void processInput(GLFWwindow *window)
         camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS && !blinnKeyPressed)
+    {
+        blinn = !blinn;
+        blinnKeyPressed = true;
+    }
+    if (glfwGetKey(window, GLFW_KEY_B) == GLFW_RELEASE)
+    {
+        blinnKeyPressed = false;
+    }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
