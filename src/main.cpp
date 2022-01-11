@@ -97,7 +97,6 @@ int main()
     Shader modelShader("resources/shaders/2.model_lighting.vs", "resources/shaders/2.model_lighting.fs");
     Shader lightCubeShader("resources/shaders/6.light_cube.vs", "resources/shaders/6.light_cube.fs");
     Shader skyboxShader("resources/shaders/6.1.skybox.vs", "resources/shaders/6.1.skybox.fs");
-    //Shader shader("resources/shaders/6.1.cubemaps.vs", "resources/shaders/6.1.cubemaps.fs");
     Shader shader("resources/shaders/3.1.blending.vs", "resources/shaders/3.1.blending.fs");
 
     float pomeraj = glfwGetTime();
@@ -330,7 +329,6 @@ int main()
     };
     unsigned int cubemapTexture = loadCubemap(faces);
 
-    //Shader modelShader2("resources/shaders/light_chicago.vs", "resources/shaders/light_chicago.fs");
 
     // load models
     // -----------
@@ -579,7 +577,7 @@ int main()
         glDrawArrays(GL_TRIANGLES, 0, 36);
         glBindVertexArray(0);
         glDepthFunc(GL_LESS); // set depth function back to default
-        std::cout << (blinn ? "Blinn-Phong" : "Phong") << std::endl;
+        //std::cout << (blinn ? "Blinn-Phong" : "Phong") << std::endl;
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
